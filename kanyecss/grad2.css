@@ -1,0 +1,134 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/gradbg.jpg');
+    background-size: cover;
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ind {
+    color: white;
+    background-color: black;
+    border: solid 5px rgb(150, 0, 225);
+    border-bottom: 0px;
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(0, 0, 0);
+    border: solid 5px rgb(150, 0, 225);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+#titolo:hover {
+    transform: scale(1.05);
+    color: rgb(150, 0, 225);
+    box-shadow: 0px 0px 10px rgb(150, 0, 225);
+}
+
+#sottotitolo {
+    background-color: rgb(0, 0, 0);
+    border: solid 5px rgb(150, 0, 225);
+}
+
+#sottotitolo:hover {
+    color: rgb(199, 1, 199);
+    box-shadow: 0px 0px 10px rgb(150, 0, 225);
+}
+
+img {
+    border: solid 10px black ;
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 100px rgb(150, 0, 225);
+    border-color: rgb(150, 0, 225);
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: solid 5px rgb(150, 0, 225);
+    border-top: 0px;
+    transition: all 0.4s ease-in-out;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.canzone {
+    background: linear-gradient(90deg, rgb(255, 102, 46), rgb(82, 0, 130));
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background: black;
+    border-color: rgb(150, 0, 225);
+    color: rgb(150, 0, 225);
+    text-shadow: 0px 0px 15px rgb(150, 0, 225);
+}
+
+.titolo {
+    background-color: transparent;
+    border: solid 5px white;
+    border-right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.durata {
+    background-color: transparent;
+    border: solid 5px white;
+    border-left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+a#home {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: rgb(66, 12, 66);
+    }
+
+    img {
+        border: solid 5px rgb(0, 0, 0);
+    }
+
+    #contenitoreTracklist, #ind {
+        border: solid 2px rgb(150, 0, 225);
+        border-collapse: collapse;
+    }
+
+    .titolo, .durata {
+        border: solid 1px white;
+        font-size: 8px;
+    }
+
+    .titolo {
+        border-right: 0px;
+    }
+
+    .durata {
+        border-left: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-image: none;
+        background-color: rgb(66, 12, 66);
+    }
+}

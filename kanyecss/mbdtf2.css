@@ -1,0 +1,144 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url(../immagini/mbdtfbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ind {
+    color: rgb(230, 165, 0);
+    background: linear-gradient(90deg, rgb(124, 0, 0), red, rgb(124, 0, 0));
+    border: solid 5px rgb(230, 165, 0);
+    text-shadow: -3px 3px 10px black;
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(196, 0, 0);
+    border: solid 5px rgb(230, 165, 0);
+    transition: all 0.5s;
+    color: rgb(230, 165, 0);
+    text-shadow: -3px 3px 5px black;
+}
+
+#titolo:hover {
+    background-color: black;
+    color: red;
+    border-color: red;
+    scale: 1.05;
+    text-shadow: 0px 0px 15px red;
+    box-shadow: 0px 0px 20px black;
+}
+
+#sottotitolo {
+    background-color: rgb(196, 0, 0);
+    border: solid 5px rgb(230, 165, 0);
+    text-shadow: -3px 3px 5px black;
+}
+
+#sottotitolo:hover {
+    background-color: black;
+    color: red;
+    border-color: red;
+    scale: 1.05;
+    text-shadow: 0px 0px 15px red;
+    box-shadow: 0px 0px 20px black;
+}
+
+img {
+    border: solid 5px rgb(230, 165, 0);
+}
+
+img:hover {
+    transform: scale(1.05);
+    border-color: rgb(230, 165, 0);
+    box-shadow: 0px 0px 50px rgb(230, 165, 0);
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(138, 37, 37, 0.6);
+    color: white;
+    transition: all 0.4s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(0, 0, 0, 0.474);
+}
+
+.canzone {
+    color: goldenrod;
+    text-shadow: -3px 3px 10px black;
+    background: linear-gradient(90deg, rgb(124, 0, 0), red, rgb(124, 0, 0));
+    transition: all 0.5s;
+}
+
+.canzone:hover {
+    box-shadow: 0px 0px 20px rgb(230, 165, 0);
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: black;
+    color: red;
+    text-shadow: 0px 0px 20px red;
+    border-color: red;
+}
+
+.titolo {
+    background-color: transparent;
+    border: solid 5px rgb(230, 165, 0);
+    border-right: 0px;
+    transition: all 0.3s;
+}
+
+.durata {
+    background-color: transparent;
+    border: solid 5px rgb(230, 165, 0);
+    border-left: 0px;
+    transition: all 0.3s;
+}
+
+#home {
+    color: rgb(230, 165, 0);
+}
+
+#home:hover {
+    color: red;
+    text-shadow: 0px 0px 10px red;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: rgb(147, 0, 0);
+    }
+
+    #ind {
+        border: solid 3px rgb(230, 165, 0);
+    }
+
+    #contenitoreTracklist {
+        background-color: rgba(113, 2, 2, 0.86);
+    }
+
+    .titolo, .durata {
+        border: solid 1px rgb(230, 165, 0);
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}

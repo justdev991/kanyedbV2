@@ -1,0 +1,115 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/tlopbg.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    color: black;
+}
+
+#ind {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(255, 131, 86);
+    border: solid 5px black;
+    text-shadow: 0px -7px 0px rgba(0, 0, 0, 0.414), 0px 7px 0px black;
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(255, 131, 86);
+    border: solid 5px black;
+    transition: all 0.4s;
+}
+
+#titolo:hover {
+    transform: scale(1.05);
+    text-shadow: 0px -24px 0px black, 0px 24px 0px black;
+    box-shadow: 0px 0px 20px black;
+}
+
+#sottotitolo {
+    background-color: rgb(255, 131, 86);
+    border: solid 5px black;
+}
+
+img {
+    transition: all 0.8s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 60px black;
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(255, 131, 86, 0.633);
+    color: white;
+    border: solid 5px black;
+    transition: all 0.4s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(0, 0, 0, 0.293);
+}
+
+.canzone {
+    color: black;
+    box-shadow: 0px 8px 0px black;
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: black;
+    color: rgba(255, 131, 86, 0.7);
+    border-color: rgb(255, 94, 36);
+    text-shadow: 0px -14px 0px rgba(255, 131, 86, 0.35), 0px 14px 0px rgb(255, 131, 86);
+}
+
+.titolo {
+    background-color: rgb(255, 131, 86);
+    border: solid 5px black;
+    border-right: 0px;
+    transition: all 0.6s;
+}
+
+.durata {
+    background-color: rgb(255, 131, 86);
+    border: solid 5px black;
+    border-left: 0px;
+    transition: all 0.6s;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: #ff8b43;
+    }
+
+    #ind {
+        border: solid 3px black;
+        border-bottom: none;
+    }
+
+    #contenitoreTracklist {
+        border: solid 3px black;
+    }
+
+    .canzone:hover .titolo, .canzone:hover .durata {
+        text-shadow: none;
+    }
+
+    .titolo, .durata {
+        border: solid 1px black;
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}

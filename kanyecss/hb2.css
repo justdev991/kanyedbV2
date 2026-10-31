@@ -1,0 +1,100 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/hbbg.jpg');
+    background-size: cover;
+    color: black;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ind {
+    color: rgb(0, 156, 167);
+    background-color: rgb(0, 71, 76);
+    border: solid 5px rgb(0, 156, 167);
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(0, 71, 76);
+    border: solid 5px rgb(0, 52, 55);
+    color: rgb(158, 0, 0);
+    text-shadow: -3px 3px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+}
+
+#titolo:hover {
+    box-shadow: 0px 0px 5px rgb(0, 52, 55);
+}
+
+#sottotitolo {
+    background-color: rgb(0, 71, 76);
+    border: solid 5px rgb(0, 52, 55);
+}
+
+img {
+    border-color: rgb(0, 52, 55);
+}
+
+img:hover {
+    box-shadow: 0px 0px 50px rgb(158, 0, 0);
+    transform: rotate(0deg);
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.canzone {
+    color: rgb(0, 85, 90);
+    transition: all 0.6s;
+}
+
+.canzone:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgb(158, 0, 0);
+    color: rgb(158, 0, 0);
+    text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.71);
+}
+
+.titolo {
+    background-color: rgb(0, 156, 167);
+    border: solid 5px rgb(0, 122, 129);
+    border-right: 0px;
+}
+
+.durata {
+    background-color: rgb(0, 156, 167);
+    border: solid 5px rgb(0, 122, 129);
+    border-left: 0px;
+}
+
+#home {
+    color: rgb(158, 0, 0);
+    text-shadow: -3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: rgb(0, 122, 129);
+    }
+
+    .titolo, .durata {
+        border: solid 1px rgb(0, 122, 129);
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}

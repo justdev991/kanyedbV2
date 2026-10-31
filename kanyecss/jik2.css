@@ -1,0 +1,113 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/jikbg.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: rgb(219, 189, 0);
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#ind {
+    color: rgb(219, 189, 0);
+    background-color: rgb(0, 0, 228);
+    border: solid 5px rgb(219, 189, 0);
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(0, 0, 228);
+    border: solid 5px rgb(219, 189, 0);
+    transition: all 0.4s;
+}
+
+#titolo:hover {
+    text-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 20px white;
+}
+
+#sottotitolo {
+    background-color: rgb(0, 0, 228);
+    border: solid 5px rgb(219, 189, 0);
+}
+
+img {
+    border: solid 5px rgb(219, 189, 0);
+    transition: all 0.8s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 50px white;
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(0, 0, 0, 0.262);
+    color: white;
+    transition: all 0.4s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(255, 255, 255, 0.155);   
+}
+
+.canzone {
+    color: rgb(219, 189, 0);
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: rgb(219, 189, 0);
+    color: white;
+    border-color: white;
+    text-shadow: 0px 0px 40px white;
+}
+
+.titolo {
+    background-color: rgb(0, 0, 228);
+    border: solid 5px rgb(219, 189, 0);
+    border-right: 0px;
+    transition: all 0.4s;
+}
+
+.durata {
+    background-color: rgb(0, 0, 228);
+    border: solid 5px rgb(219, 189, 0);
+    border-left: 0px;
+    transition: all 0.4s;
+}
+
+#home {
+    color: rgb(219, 189, 0);
+}
+
+@media screen and (max-width: 600px) {
+    #ind {
+        border: solid 3px rgb(219, 189, 0);
+    }
+
+    .titolo, .durata {
+        border: solid 1px rgb(219, 189, 0);
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(0, 0, 153);
+        background-image: none;
+    }
+}

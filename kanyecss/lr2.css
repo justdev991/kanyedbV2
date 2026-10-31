@@ -1,0 +1,97 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/lrbg.jpg');
+    background-size: cover;
+    color: goldenrod;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ind {
+    color: white;
+    background-color: rgb(75, 45, 7);
+    border: solid 5px rgb(75, 45, 7);
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(108, 65, 9);
+    border: solid 5px rgb(75, 45, 7);
+    text-shadow: 4px 4px 0px black;
+}
+
+#sottotitolo {
+    background-color: rgb(108, 65, 9);
+    border: solid 5px rgb(75, 45, 7);
+    text-shadow: 3px 3px 0px black;
+}
+
+#sottotitolo:hover {
+    box-shadow: 0px 0px 20px rgb(108, 65, 9);
+    text-shadow: 0px 0px 10px goldenrod;
+}
+
+img {
+    border: solid 5px rgb(139, 119, 5);
+}
+
+img:hover {
+    box-shadow: 0px 0px 50px goldenrod;
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(255, 232, 29, 0.347);
+    color: white;
+}
+
+.canzone {
+    color: rgb(255, 232, 29);
+}
+
+.canzone:hover {
+    box-shadow: 0px 0px 20px rgb(108, 65, 9);
+    text-shadow: 0px 0px 10px goldenrod;
+}
+
+.titolo {
+    background-color: black;
+    border: solid 5px rgb(255, 232, 29);
+    border-right: 0px;
+    background-color: rgb(75, 45, 7);
+}
+
+.durata {
+    background-color: black;
+    border: solid 5px rgb(255, 232, 29);
+    border-left: 0px;
+    background-color: rgb(75, 45, 7);
+}
+
+#home {
+    color: goldenrod;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: rgb(74, 29, 0);
+    }
+
+    .titolo, .durata {
+        border: solid 1px rgb(255, 232, 29);
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}

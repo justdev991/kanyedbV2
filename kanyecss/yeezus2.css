@@ -1,0 +1,110 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/yeezusbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#ind {
+    color: rgb(194, 55, 55);
+    background-color: rgb(160, 160, 160);
+    border: solid 5px rgb(90, 90, 90);
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(160, 160, 160);
+    border: solid 5px rgb(90, 90, 90);
+    color: rgb(194, 55, 55);
+}
+
+#sottotitolo {
+    background-color: rgb(160, 160, 160);
+    border: solid 5px rgb(90, 90, 90);
+}
+
+img {
+    height: 500px;
+    width: 570px;
+    transition: all 0.6s;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(0deg);
+    box-shadow: 0px 0px 50px rgb(194, 55, 55);
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(192, 180, 180, 0.9);
+    color: white;
+    transition: all 0.3s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(140, 136, 136, 0.9);
+}
+
+.canzone {
+    color: rgb(194, 55, 55);
+}
+
+.titolo {
+    background-color: rgb(160, 160, 160);
+    border: solid 5px rgb(90, 90, 90);
+    border-right: 0px;
+    transition: all 0.4s;
+}
+
+.durata {
+    background-color: rgb(160, 160, 160);
+    border: solid 5px rgb(90, 90, 90);
+    border-left: 0px;
+    transition: all 0.4s;
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: rgb(192, 0, 0);
+    color: rgba(192, 180, 180, 0.9);
+    border-color: rgb(192, 180, 180);
+    text-shadow: 0px 0px 20px white;
+}
+
+#home {
+    color: rgb(194, 55, 55);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: gray;
+    }
+
+    img {
+        width: 285px;
+        height: 250px;
+        border: solid 5px rgb(90, 90, 90);
+    }
+
+    #ind {
+        border: solid 3px rgb(90, 90, 90);
+    }
+
+    .titolo, .durata {
+        border: solid 1px rgb(90, 90, 90);
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}

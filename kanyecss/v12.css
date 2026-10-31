@@ -1,0 +1,118 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/v1bg.jpg');
+    background-size: cover;
+    color: black;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#ind {
+    color: black;
+    background-color: rgb(139, 92, 66);
+    border: solid 5px black;
+    border-bottom: solid 0px white;
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(80, 52, 37);
+    border: solid 5px rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+#titolo:hover {
+    background-color: black;
+    color: rgb(80, 52, 37);
+    border-color: rgb(80, 52, 37);
+    box-shadow: 0px 0px 20px rgb(80, 52, 37);
+    text-shadow: 0px 0px 20px rgb(80, 52, 37);
+}
+
+#sottotitolo {
+    background-color: rgb(80, 52, 37);
+    border: solid 5px rgb(0, 0, 0);;
+}
+
+#sottotitolo:hover {
+    background-color: black;
+    border-color: rgb(80, 52, 37);
+}
+
+img {
+    border-color: black;
+    transition: all 0.6s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(63, 46, 21, 0.333);
+    color: white;
+    border: solid 5px black;
+    border-top: 0px;
+}
+
+.canzone {
+    color: black;
+}
+
+.titolo {
+    background-color: rgb(80, 52, 37);
+    border: solid 5px black;
+    border-right: 0px;
+    transition: all 0.4s;
+}
+
+.durata {
+    background-color: rgb(80, 52, 37);
+    border: solid 5px black;
+    border-left: 0px;
+    transition: all 0.4s;
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: black;
+    border-color: rgb(80, 52, 37);
+    color: rgb(80, 52, 37);
+}
+
+#home {
+    color: black;
+}
+
+#home:hover {
+    color: rgb(80, 52, 37);
+}
+
+@media screen and (max-width: 600px) {
+    #ind {
+        border: solid 3px black;
+    }
+
+    .titolo, .durata {
+        border: solid 1px black;
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(41, 24, 15);
+        background-image: none;
+    }
+}

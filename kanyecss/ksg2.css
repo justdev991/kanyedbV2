@@ -1,0 +1,125 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/ksgbg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    font-family: "Schoolbell", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#ind {
+    color: black;
+    background-color: rgb(255, 135, 155);
+    border: solid 5px black;
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(255, 135, 155);
+    border: solid 5px black;
+    transition: all 0.4s;
+}
+
+#titolo:hover {
+    background-color: black;
+    color: rgb(255, 135, 155);
+    border-color: rgb(255, 135, 155);
+    text-shadow: 0px 0px 20px rgb(255, 135, 155);
+    transform: scale(1.03);
+}
+
+#sottotitolo {
+    background-color: rgb(255, 135, 155);
+    border: solid 5px black;
+    transition: all 0.4s;
+}
+
+#sottotitolo:hover {
+    background-color: black;
+    color: rgb(255, 135, 155);
+    border-color: rgb(255, 135, 155);
+    text-shadow: 0px 0px 20px rgb(255, 135, 155);
+    transform: scale(1.03);
+}
+
+img {
+    transition: all 0.7s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    border-color: rgb(255, 91, 118);
+    box-shadow: 0px 0px 50px black;
+}
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(0, 0, 0, 0.422);
+    color: white;
+    transition: all 0.5s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.canzone {
+    color: rgb(13, 13, 13);
+    background: linear-gradient(90deg, rgb(255, 255, 0), rgb(255, 68, 0), rgb(135, 190, 209));
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: black;
+    border-color: rgb(255, 135, 155);
+    color: rgb(255, 135, 155);
+    text-shadow: 0px 0px 20px rgb(255, 135, 155);
+}
+
+.titolo {
+    background-color: transparent;
+    border: solid 5px black;
+    border-right: 0px;
+    transition: all 0.6s;
+}
+
+.durata {
+    background-color: transparent;
+    border: solid 5px black;
+    border-left: 0px;
+    transition: all 0.6s;
+}
+
+#home:hover {
+    color: rgb(255, 135, 155);
+    text-shadow: 0px 0px 10px rgb(255, 135, 155);
+}
+
+@media screen and (max-width: 600px) {
+    #ind {
+        border: solid 3px black;
+    }
+
+    .titolo, .durata {
+        border: solid 1px black;
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(255, 91, 118);
+        background-image: none;
+    }
+}

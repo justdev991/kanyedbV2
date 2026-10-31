@@ -1,0 +1,103 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url(../immagini/yebg.jpg);
+    background-size: cover;
+    color: black;
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#ind {
+    color: rgb(0, 255, 17);
+    background-color: rgb(25, 22, 37);
+    border: solid 5px rgb(0, 255, 17);
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: rgb(25, 22, 37);
+    border: solid 5px rgb(0, 255, 17);
+    color: rgb(0, 255, 17);
+    transition: all 0.4s;
+}
+
+#titolo:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(0, 255, 17);
+}
+
+#sottotitolo {
+    background-color: rgb(25, 22, 37);
+    border: solid 5px rgb(0, 255, 17);
+}
+
+img {
+    border: solid 5px rgb(0, 255, 17);
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 50px rgb(0, 255, 17);
+}
+
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+    transition: all 0.4s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(0, 0, 0, 0.818);
+}
+
+.canzone {
+    color: rgb(0, 255, 17);
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: rgb(0, 255, 17);
+    color: rgb(25, 22, 37);
+    border-color: rgb(25, 22, 37);
+}
+
+.titolo {
+    background-color: rgb(25, 22, 37);
+    border: solid 5px rgb(0, 255, 17);
+    border-right: 0px;
+    transition: all 0.4s;
+}
+
+.durata {
+    background-color: rgb(25, 22, 37);
+    border: solid 5px rgb(0, 255, 17);
+    border-left: 0px;
+    transition: all 0.4s;
+}
+
+#home {
+    color: rgb(0, 255, 17);
+}
+
+@media screen and (max-width: 600px) {
+    #ind {
+        border: solid 3px rgb(0, 255, 17);
+    }
+
+    .titolo, .durata {
+        border: solid 1px rgb(0, 255, 17);
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+}   

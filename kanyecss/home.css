@@ -1,0 +1,413 @@
+/* =======================
+        GENERALE
+======================= */
+body {
+    background-image: url(../immagini/sfondo.jpg);
+    color: rgb(218, 218, 218);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+}
+
+/* =======================
+         HEADER
+======================= */
+
+#sezioneIniziale {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    text-align: center;
+    row-gap: 0px;
+    margin-bottom: 5%;
+}
+
+#titolo {
+    padding: 0px;
+    margin: 3% 0px 0px 0px;
+}
+
+#sottotitolo {
+    margin: 1%;
+}
+
+/* =======================
+         MAIN
+======================= */
+
+#sezionePrincipale {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    justify-content: center;
+    column-gap: 5vw;
+    row-gap: 3vw;
+    margin: 0px 10%;
+}
+
+.card {
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(69, 69, 69);
+    padding: 20px;         
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    font-size: 50px;
+    font-weight: bold;
+    border: solid 5px white;
+    height: 80%;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 50px;
+    transform: scale(1.1) rotate(1deg);
+    background-color: rgb(19, 19, 19);
+}
+
+main p {
+    margin: 5% 0px 0px 0px;
+}
+
+/* =======================
+         CARD
+======================= */
+
+#tcd {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#lr {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#grad {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hb {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mbdtf {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#wtt {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#ye {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#ksg {
+    font-family: "Schoolbell", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#jik {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#donda {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+#v1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+}
+
+#v2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#donda2 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#bully {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#tcd:hover, #tcd:active {
+    box-shadow: 0px 0px 50px white;
+    color: white;
+    border-color: white;
+}
+
+#lr:hover, #lr:active {
+    box-shadow: 0px 0px 50px rgb(148, 72, 72);
+    color: rgb(148, 72, 72);
+    border-color: rgb(148, 72, 72);
+}
+
+#grad:hover, #grad:active {
+    box-shadow: 0px 0px 50px purple;
+    color: purple;
+    border-color: purple;
+}
+
+#hb:hover {
+    box-shadow: 0px 0px 50px rgb(83, 161, 161);
+    color: rgb(83, 161, 161);
+    border-color: rgb(83, 161, 161);
+}
+
+#mbdtf:hover {
+    box-shadow: 0px 0px 50px red;
+    color: red;
+    border-color: red;
+}
+
+#wtt:hover {
+    box-shadow: 0px 0px 50px rgb(225, 192, 0);
+    color: rgb(225, 192, 0);
+    border-color: rgb(225, 192, 0);
+}
+
+#yeezus:hover {
+    box-shadow: 0px 0px 50px rgb(179, 179, 179);
+    color: rgb(179, 179, 179);
+    border-color: rgb(179, 179, 179);
+}
+
+#tlop:hover {
+    box-shadow: 0px 0px 50px orangered;
+    color: orangered;
+    border-color: orangered;
+}
+
+#ye:hover {
+    box-shadow: 0px 0px 50px rgb(16, 198, 16);
+    color: rgb(16, 198, 16);
+    border-color: rgb(16, 198, 16);
+}
+
+#ksg:hover {
+    box-shadow: 0px 0px 50px rgb(255, 133, 228);
+    color: rgb(255, 133, 228);
+    border-color: rgb(255, 133, 228);
+}
+
+#jik:hover {
+    box-shadow: 0px 0px 50px blue;
+    color: blue;
+    border-color: blue;
+}
+
+#donda:hover {
+    box-shadow: 0px 0px 50px black;
+    background-color: rgb(152, 152, 152);
+    color: black;
+    border-color: black;
+}
+
+#v1:hover {
+    box-shadow: 0px 0px 50px rgb(82, 64, 64);
+    color: rgb(82, 64, 64);
+    border-color: rgb(82, 64, 64);
+}
+
+#v2:hover {
+    box-shadow: 0px 0px 50px rgb(120, 120, 120);
+    color: rgb(120, 120, 120);
+    border-color: rgb(120, 120, 120);
+}
+
+#donda2:hover {
+    box-shadow: 0px 0px 50px rgb(82, 69, 44);
+    color: rgb(82, 69, 44);
+    border-color: rgb(82, 69, 44);
+}
+
+#bully:hover {
+    box-shadow: 0px 0px 50px grey;
+    color: grey;
+    border-color: grey;
+}
+ 
+/* =======================
+         FOOTER
+======================= */
+
+#sezioneFinale {
+    margin-top: 5vw;
+    background-color: rgb(151, 151, 151);
+    color: black;
+    border-radius: 20px;
+    border: double 8px black;
+    padding: 0px 1%;
+    font-size: 25px;
+}
+
+/* #sezioneFinale p {
+    padding: 0.5%;
+    font-size: 25px;
+} */
+
+#titoloInfo {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* =======================
+         LINK
+======================= */
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+/* =======================
+         MEDIA QUERIES
+======================= */
+
+@media screen and (max-width: 1000px) {
+    #sezionePrincipale {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+        row-gap: 5vw;
+        margin: 0% 10% 10% 10%;
+    }
+
+    body {
+        background-image: none;
+        background-color: rgb(16, 14, 23);
+    }
+
+    .card {
+        display: block;
+        font-size: 100%;
+        font-weight: 500;
+        background-color: rgb(8, 4, 18);
+        padding: 30px 5px;
+        transition: all 0.4s;
+        height: max-content;
+    }
+
+    .card p {
+        margin: 0px;
+    }
+
+    #tcd {
+        color: white;
+        border-color: white;
+    }
+
+    #lr {
+        color: rgb(148, 72, 72);
+        border-color: rgb(148, 72, 72);
+    }
+
+    #grad {
+        color: rgb(153, 0, 153);
+        border-color: rgb(153, 0, 153);
+    }
+
+    #hb {
+        color: rgb(83, 161, 161);
+        border-color: rgb(83, 161, 161);
+    }
+
+    #mbdtf {
+        color: red;
+        border-color: red;
+    }
+
+    #wtt {
+        color: rgb(225, 192, 0);
+        border-color: rgb(225, 192, 0);
+    }
+    
+    #yeezus {
+        color: rgb(179, 179, 179);
+        border-color: rgb(179, 179, 179);
+    }
+
+    #tlop {
+        color: orangered;
+        border-color: orangered;
+    }
+
+    #ye {
+        color: rgb(16, 198, 16);
+        border-color: rgb(16, 198, 16);
+    }
+
+    #ksg {
+        color: rgb(255, 133, 228);
+        border-color: rgb(255, 133, 228);
+    }
+
+    #jik {
+        color: blue;
+        border-color: blue;
+    }
+
+    #donda {
+        background-color: rgb(152, 152, 152);
+        color: black;
+        border-color: black;
+    }
+
+    #v1 {
+        color: rgb(82, 64, 64);
+        border-color: rgb(82, 64, 64);
+    }
+
+    #v2 {
+        color: rgb(120, 120, 120);
+        border-color: rgb(120, 120, 120);
+    }
+
+    #donda2 {
+        color: rgb(82, 69, 44);
+        border-color: rgb(82, 69, 44);
+    }
+
+    #bully {
+        color: grey;
+        border-color: grey;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .card:active {
+        transform: scale(1.1) rotate(1deg);
+    }
+}

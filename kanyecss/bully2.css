@@ -1,0 +1,124 @@
+/* STILE GENERALE */
+
+body {
+    background-image: url('../immagini/bullybg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ind {
+    color: gray;
+    background-color: black;
+    border: solid 5px gray;
+    border-bottom: solid 1px gray;
+}
+
+/* STILE HEADER */
+
+#titolo {
+    background-color: black;
+    color: gray;
+    border: solid 5px gray;
+    transition: all 0.4s;
+}
+
+#titolo:hover {
+    background-color: gray;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px gray;
+    border-color: black;
+}
+
+#sottotitolo {
+    background-color: black;
+    color: gray;
+    border: solid 5px gray;
+    transition: all 0.4s;
+}
+
+#sottotitolo:hover {
+    background-color: gray;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px gray;
+    border-color: black;
+}
+
+img {
+    border-color: gray;
+    transition: all 0.6s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* STILE LINK */
+
+#contenitoreTracklist {
+    background-color: rgba(128, 128, 128, 0.196);
+    color: white;
+    border: solid 5px gray;
+    border-top: 0px; 
+    transition: all 0.4s;
+}
+
+#contenitoreTracklist:hover {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.canzone {
+    color: black;
+}
+
+.canzone:hover .titolo, .canzone:hover .durata {
+    background-color: black;
+    color: gray;
+    border-color: gray;
+}
+
+.titolo {
+    background-color: gray;
+    border-color: black;
+    border-right: 0px;
+    transition: all 0.4s;
+}
+
+.durata {
+    background-color: gray;
+    border-color: black;
+    border-left: 0px;
+    transition: all 0.4s;
+}
+
+#home {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    #ind {
+        border: solid 3px gray;
+    }
+
+    .titolo, .durata {
+        border: solid 1px black;
+    }
+
+    .titolo {
+        border-right: none;
+    }
+
+    .durata {
+        border-left: none;
+    }
+
+    body {
+        background-color: rgb(83, 83, 83);
+        background-image: none;
+    }
+}
