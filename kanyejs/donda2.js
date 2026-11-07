@@ -1,11 +1,11 @@
-let Donda = new Album('Donda', '2021');
+let Donda = new Album('Donda (Deluxe)', '2021');
 
 Donda.tracklist = [
     new Canzone("Donda Chant", "0:53", "https://www.youtube.com/watch?v=J8k-73s2fHw&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=1"),
     new Canzone("Jail", "4:58", "https://www.youtube.com/watch?v=IviYsgJXG5k&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=2"),
     new Canzone("God Breathed", "5:34", "https://www.youtube.com/watch?v=aIhdYj4tfFo&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=3"),
-    new Canzone("Off The Grid", "5:40", "https://www.youtube.com/watch?v=EbDMNjT-QpI&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=4"),
     new Canzone("Hurricane (feat. The Weekend & Lil Baby)", "4:12", "https://www.youtube.com/watch?v=VRJiK-kdDb4&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=5"),
+    new Canzone("Off The Grid", "5:40", "https://www.youtube.com/watch?v=EbDMNjT-QpI&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=4"),
     new Canzone("Praise God", "3:47", "https://www.youtube.com/watch?v=9sJZOGxRxwM&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=6"),
     new Canzone("Jonah", "3:16", "https://www.youtube.com/watch?v=txion5seTBA&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=7"),
     new Canzone("Ok Ok", "3:25", "https://www.youtube.com/watch?v=nQ94QQinn5o&list=OLAK5uy_lKXGZm9W88ax74iCA8gsjO8u6ojF2PIPg&index=8"),
@@ -27,7 +27,12 @@ Donda.tracklist = [
     new Canzone("Jail pt 2", "4:57", "https://www.youtube.com/watch?v=UArRcQEgxp8&list=RDUArRcQEgxp8&start_radio=1"),
     new Canzone("Ok Ok pt 2", "3:25", "https://www.youtube.com/watch?v=RVPEzbhSjFw&list=RDRVPEzbhSjFw&start_radio=1"),
     new Canzone("Junya pt 2", "3:04", "https://www.youtube.com/watch?v=fRtqzjFLVF4&list=RDfRtqzjFLVF4&start_radio=1"),
-    new Canzone("Jesus Lord pt 2", "11:30", "https://www.youtube.com/watch?v=HWzLbfkoztE&list=RDHWzLbfkoztE&start_radio=1")
+    new Canzone("Jesus Lord pt 2", "11:30", "https://www.youtube.com/watch?v=HWzLbfkoztE&list=RDHWzLbfkoztE&start_radio=1"),
+    new Canzone("Life Of The Party (with André 3000)", "6:33", "https://www.youtube.com/watch?v=7YNL5DCRNec"),
+    new Canzone("Up From The Ashes", "2:43", "https://www.youtube.com/watch?v=NcH7gveMJ1o"),
+    new Canzone("Remote Control pt 2", "5:24", "https://www.youtube.com/watch?v=IsYOlnRNfiM"),
+    new Canzone("Never Abandon Your Family", "3:28", "https://www.youtube.com/watch?v=GKuVipCSp_A"),
+    new Canzone("Keep My Spirit Alive pt 2", "3:42", "https://www.youtube.com/watch?v=Fe8IKAJxZ_g")
 ];
 
 generaTracklist(Donda);

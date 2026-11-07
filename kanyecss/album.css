@@ -111,7 +111,9 @@ img:hover {
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    padding: 10% 40%;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
 }
 
 a {
@@ -124,6 +126,7 @@ a {
     body {
         justify-content: center;
         align-items: center;
+        background-attachment: fixed;
     }
 
     #ind {
@@ -154,7 +157,7 @@ a {
     }
 
     .titolo, .durata {
-        font-size: 10px;
+        font-size: 15px;
         border: solid 1px black;
     }
     
@@ -165,6 +168,10 @@ a {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-attachment: fixed;
+    }
+
     .durata {
         padding-left: 0px;   
         text-align: center;

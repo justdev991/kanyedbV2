@@ -25,17 +25,17 @@ kanyeWest.lista = [
     new Card('Graduation', '2007', 'kanyehtml/grad2.html', 'grad'),
     new Card('808s & Heartbreak', '2008', 'kanyehtml/hb2.html', 'hb'),
     new Card('My Beautiful Dark Twisted Fantasy', '2010', 'kanyehtml/mbdtf2.html', 'mbdtf'),
-    new Card('Watch The Throne', '2011', 'kanyehtml/wtt2.html', 'wtt'),
+    new Card('Watch The Throne (Deluxe)', '2011', 'kanyehtml/wtt2.html', 'wtt'),
     new Card('Yeezus', '2013', 'kanyehtml/yeezus2.html', 'yeezus'),
     new Card('The Life Of Pablo', '2016', 'kanyehtml/tlop2.html', 'tlop'),
     new Card('ye', '2018', 'kanyehtml/ye2.html', 'ye'),
     new Card('KIDS SEE GHOSTS', '2018', 'kanyehtml/ksg2.html', 'ksg'),
     new Card('JESUS IS KING', '2019', 'kanyehtml/jik2.html', 'jik'),
-    new Card('Donda', '2021', 'kanyehtml/donda2.html', 'donda'),
+    new Card('Donda (Deluxe)', '2021', 'kanyehtml/donda2.html', 'donda'),
     new Card('VULTURES 1', '2024', 'kanyehtml/v12.html', 'v1'),
     new Card('VULTURES 2', '2024', 'kanyehtml/v22.html', 'v2'),
     new Card('DONDA 2', '2025', 'kanyehtml/donda22.html', 'donda2'),
-    new Card('BULLY', '2026', 'kanyehtml/bully2.html', 'bully')
+    new Card('BULLY (Deluxe)', '2026', 'kanyehtml/bully2.html', 'bully')
 ];
 
 let sezionePrincipale = document.getElementById('sezionePrincipale');

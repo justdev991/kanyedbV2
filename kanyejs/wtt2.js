@@ -12,7 +12,11 @@ WatchTheThrone.tracklist = [
     new Canzone("Who Gon Stop Me", "4:18", "https://www.youtube.com/watch?v=401PXFxZcEI&list=PLFTIplre4H7VrlWPAb94QnEdzqfqym004&index=9"),
     new Canzone("Murder To Excellence", "5:02", "https://www.youtube.com/watch?v=FV0JEEmdd3k&list=PLFTIplre4H7VrlWPAb94QnEdzqfqym004&index=10"),
     new Canzone("Made In America (feat. Frank Ocean)", "4:53", "https://www.youtube.com/watch?v=SCYd8X5MSPg&list=PLFTIplre4H7VrlWPAb94QnEdzqfqym004&index=11"),
-    new Canzone("Why I Love You (feat. Mr. Hudson)", "3:21", "https://www.youtube.com/watch?v=M2Uk1eRV44o&list=PLFTIplre4H7VrlWPAb94QnEdzqfqym004&index=12")
+    new Canzone("Why I Love You (feat. Mr. Hudson)", "3:21", "https://www.youtube.com/watch?v=M2Uk1eRV44o&list=PLFTIplre4H7VrlWPAb94QnEdzqfqym004&index=12"),
+    new Canzone("Illest Motherf***** Alive", "5:24", "https://www.youtube.com/watch?v=pE1XfPw9XE8&list=OLAK5uy_mr4AG81VGSO7DGIdveCHdOHsvkANwQunw&index=13"),
+    new Canzone("H•A•M", "4:36", "https://www.youtube.com/watch?v=Pyqe716HByE&list=OLAK5uy_mr4AG81VGSO7DGIdveCHdOHsvkANwQunw&index=14"),
+    new Canzone("Primetime", "3:20", "https://www.youtube.com/watch?v=QRbXE-Q0CYI&list=OLAK5uy_mr4AG81VGSO7DGIdveCHdOHsvkANwQunw&index=15"),
+    new Canzone("The Joy", "5:15", "https://www.youtube.com/watch?v=P6T4WtT3-uc&list=OLAK5uy_mr4AG81VGSO7DGIdveCHdOHsvkANwQunw&index=16")
 ];
 
 generaTracklist(WatchTheThrone);
