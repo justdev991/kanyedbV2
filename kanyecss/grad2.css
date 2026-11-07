@@ -114,7 +114,7 @@ a#home {
 
     .titolo, .durata {
         border: solid 1px white;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .titolo {
@@ -123,6 +123,8 @@ a#home {
 
     .durata {
         border-left: 0px;
+        justify-content: center;
+        text-align: center;
     }
 }
 
